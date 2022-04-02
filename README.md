@@ -60,3 +60,13 @@ Installing for dependencies:
  net-snmp-libs                         x86_64                1:5.7.2-49.el7_9.1                               updates                751 k
  tcp_wrappers-libs                     x86_64                7.6-77.el7                                       base                    66 k
 ```
+
+
+## key generate
+
+
+```code
+gpg --gen-key
+gpg --armor --export dalongapp  > pgp-key.public
+gpg --armor --export-secret-keys dalongapp > pgp-key.private
+```
